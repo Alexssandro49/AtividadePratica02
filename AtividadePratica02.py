@@ -1,4 +1,3 @@
-#encoding: latin-1
 
 from atividade1 import *
 from atividade2 import *
@@ -25,4 +24,4 @@ reuters.inscrever(fox)
 reuters.inscrever(cnn)
 reuters.inscrever(globo)
 reuters.nova_noticia("Dolar dispara!")
-reuters.nova_noticia("Elon Musk irá salvar astronautas junto da Nasa!")
+reuters.nova_noticia("Elon Musk irÃ¡ salvar astronautas junto da Nasa!")

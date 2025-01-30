@@ -1,4 +1,3 @@
-#encoding: latin-1
 from abc import ABC, abstractmethod
 
 class Drink(ABC):

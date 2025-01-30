@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+﻿
 from Ingredientes import *
 from Caipirinhas import *
 

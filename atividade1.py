@@ -1,4 +1,3 @@
-#encoding: latin-1
 from abc import ABC, abstractmethod
 
 class Operacao(ABC):
@@ -9,20 +8,20 @@ class Operacao(ABC):
 class DivisaoInt(Operacao):
     def update(self, valor1, valor2):
         if valor2 != 0:
-            print(f"Divis„o inteira: {valor1} // {valor2} = {valor1 // valor2}")
+            print(f"Divis√£o inteira: {valor1} // {valor2} = {valor1 // valor2}")
         else:
-            print("Erro! Divis„o por zero.")
+            print("Erro! Divis√£o por zero.")
 
 class RestoDivisao(Operacao):
     def update(self, valor1, valor2):
         if valor2 != 0:
             print(f"Resto : {valor1} % {valor2} = {valor1 % valor2}")
         else:
-            print("Erro! Divis„o por zero.")
+            print("Erro! Divis√£o por zero.")
 
 class Multiplicacao(Operacao):
     def update(self, valor1, valor2):
-        print(f"MultiplicaÁ„o: {valor1} * {valor2} = {valor1 * valor2}")
+        print(f"Multiplica√ß√£o: {valor1} * {valor2} = {valor1 * valor2}")
 
 
 class Calculadora:

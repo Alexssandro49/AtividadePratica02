@@ -1,12 +1,11 @@
-#encoding: latin-1
 from Caipirinhas import DrinkDecorator
 
 class Saque(DrinkDecorator):
     def get_descricao(self):
-        return self._drink.get_descricao() + ", Saquê"
+        return self._drink.get_descricao() + ", SaquÃ©"
 
     def get_preco(self):
-        return self._drink.get_preco() + 5.0  # Custo adicional
+        return self._drink.get_preco() + 5.0  
 
 
 class Vodka(DrinkDecorator):
@@ -43,7 +42,7 @@ class Morango(DrinkDecorator):
 
 class Acucar(DrinkDecorator):
     def get_descricao(self):
-        return self._drink.get_descricao() + ", Açúcar"
+        return self._drink.get_descricao() + ", AÃ§ucar"
 
     def get_preco(self):
         return self._drink.get_preco() + 1.0
@@ -51,7 +50,7 @@ class Acucar(DrinkDecorator):
 
 class Adocante(DrinkDecorator):
     def get_descricao(self):
-        return self._drink.get_descricao() + ", Adoçante"
+        return self._drink.get_descricao() + ", AdoÃ§ante"
 
     def get_preco(self):
         return self._drink.get_preco() + 1.5

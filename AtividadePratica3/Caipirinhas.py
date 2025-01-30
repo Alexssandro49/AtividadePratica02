@@ -1,4 +1,3 @@
-#encoding: latin-1
 from Interface import  * 
 
 class Caipira(Drink):
@@ -10,10 +9,10 @@ class Caipira(Drink):
 
 class CaipirinhaPadrao(Drink):
     def get_descricao(self):
-        return "Caipirinha (Cachaça, Limão, Gelo e Açúcar)"
+        return "Caipirinha (CachaÃ§a, LimÃ£o, Gelo e AÃ§ucar)"
 
     def get_preco(self):
-        return 25.0  # Preço fixo
+        return 25.0 
 
 class DrinkDecorator(Drink):
     def __init__(self, drink):

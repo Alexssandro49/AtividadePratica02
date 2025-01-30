@@ -24,6 +24,8 @@
     <Compile Include="atividade1.py" />
     <Compile Include="atividade2.py" />
     <Compile Include="AtividadePratica02.py" />
+    <Compile Include="AtividadePratica3Desafio\Desafio5.py" />
+    <Compile Include="AtividadePratica3Desafio\main.py" />
     <Compile Include="AtividadePratica3\Caipirinhas.py" />
     <Compile Include="AtividadePratica3\Ingredientes.py" />
     <Compile Include="AtividadePratica3\Interface.py" />
@@ -31,6 +33,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AtividadePratica3\" />
+    <Folder Include="AtividadePratica3Desafio\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
